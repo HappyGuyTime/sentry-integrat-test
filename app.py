@@ -5,7 +5,7 @@ from sentry_sdk.integrations.flask import FlaskIntegration
 
 sentry_sdk.init(
     dsn="https://2a1ddee8bf3af190463a6091c8c7f0d0@o4505386053140480.ingest.us.sentry.io/4506919706492928",
-    integrations=[FlaskIntegration(), ]
+    integrations=[FlaskIntegration()],
     # Set traces_sample_rate to 1.0 to capture 100%
     # of transactions for performance monitoring.
     traces_sample_rate=1.0,
